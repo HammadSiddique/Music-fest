@@ -88,6 +88,9 @@ nav .openMenu {
   font-size: 2.25em;
   line-height: 2.7rem;
   margin-bottom: 0.7rem;
+  background-image: -webkit-linear-gradient(45deg, #ec5242, #ffb03a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
@@ -275,5 +278,65 @@ nav .openMenu {
   .main-nav-items li a {
     text-decoration: none;
     color: #272a31;
+  }
+
+  .intro-text {
+    padding-top: 7%;
+    padding-left: 15%;
+  }
+
+  .headline {
+    font-size: 2em;
+  }
+
+  .main-heading {
+    font-size: 4.5em;
+    line-height: 5rem;
+  }
+
+  .description {
+    padding-top: 3%;
+    width: 45%;
+    font-size: 0.8em;
+  }
+
+  .date {
+    font-size: 3em;
+  }
+
+  .main-program h3 {
+    font-size: 2em;
+  }
+
+  .main-program hr {
+    width: 5%;
+    margin-left: 47.5%;
+  }
+
+  .program-details {
+    flex-direction: row-reverse;
+    margin: 0 5%;
+    margin-bottom: 5%;
+  }
+
+  .program-details .detail {
+    flex-direction: column;
+    margin: 0 1px;
+    margin-top: 5%;
+    height: 35vh;
+    width: 25vw;
+  }
+
+  .lecture .description-program,
+  .games .description-program,
+  .forum .description-program,
+  .food .description-program {
+    padding-left: 0.5rem;
+  }
+
+  .join-button {
+    display: flex;
+    padding: 2% 4%;
+    margin: 0 38% 6% 39%;
   }
 }
