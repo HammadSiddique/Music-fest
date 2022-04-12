@@ -16,7 +16,8 @@ body {
   flex-direction: column;
 }
 
-.desktop-nav {
+.desktop-nav-1,
+.desktop-nav-2 {
   display: none;
 }
 
@@ -195,4 +196,84 @@ nav .openMenu {
   margin: 0 5rem;
   margin-top: 0;
   margin-bottom: 10%;
+}
+
+@media (min-width: 768px) {
+  .app-wrap {
+    max-width: 100%;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav-1 {
+    display: block;
+    background-color: #1d1d1d;
+    height: 2.3rem;
+  }
+
+  .top-nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2.25rem;
+    list-style: none;
+    padding-right: 4rem;
+    padding-top: 0.3rem;
+  }
+
+  .logo a {
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #ec5242;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .top-nav-items li a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .desktop-nav-2 {
+    display: flex;
+    background-color: #fff;
+    height: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    padding-left: 6rem;
+    gap: 0.5rem;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+
+  .main-nav-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 4rem;
+  }
+
+  .music-fest-nav {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 0.5rem;
+    font-weight: 700;
+  }
+
+  .main-nav-items li a {
+    text-decoration: none;
+    color: #272a31;
+  }
 }
