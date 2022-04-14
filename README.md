@@ -11,10 +11,13 @@
 - CSS3
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+Here is the live demo of the [website.](https://hammadsiddique.github.io/Music-fest/)
 
+## Project Documentation
+
+For better insight, here is a [video](https://www.loom.com/share/014785c19ada4934b8eb1c2f144d2dc6) where I have explained the project features in detail.
 
 ## Getting Started
 
@@ -22,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-Git clone https://github.com/HammadSiddique/Music-fest
+`git clone https://github.com/HammadSiddique/Music-fest`
 
 ## Authors
 
@@ -44,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea is by [Cindy Shin](https://www.behance.net/adagio07)
+- Original design idea is by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
 ## 📝 License
 
