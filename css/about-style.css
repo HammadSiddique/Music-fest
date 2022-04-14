@@ -107,6 +107,7 @@ nav .openMenu {
   margin-bottom: 0.7rem;
   background-image: -webkit-linear-gradient(45deg, #ec5242, #ffb03a);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
