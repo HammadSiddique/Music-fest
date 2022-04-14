@@ -7,7 +7,7 @@
     <title>Musical Fest '22</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
@@ -19,23 +19,33 @@
         <nav class="mobile-menu">
             <div class="closeMenu"><i class="fa-solid fa-times"></i></div>
             <ul class="menu-items">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">Sponsors</a></li>
+                <li><a class="close-nav" href="about.html">About</a></li>
+                <li><a class="close-nav" href="#program">Program</a></li>
+                <li><a class="close-nav" href="#artists">Artists</a></li>
+                <li><a class="close-nav" href="#sponsors">Sponsors</a></li>
             </ul>
         </nav>
-        <nav class="desktop-nav">    
-            <div class="logo"><img src="img/logo.png" alt="logo"><a>Musical Fest '22</a></div>
-            <ul class="mainMenu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">Sponsors</a></li>
+        <nav class="desktop-nav-1">
+            <ul class="top-nav-items">
+                <li class="black-nav-item"><a href="#" class="fa-brands fa-facebook-f"></a></li>
+                <li class="black-nav-item"><a href="#" class="fa-brands fa-twitter"></a></li>
+                <li class="black-nav-item"><a href="#">English</a></li>
+                <li class="black-nav-item"><a href="#">My Page</a></li>
+                <li class="black-nav-item"><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+        <nav class="desktop-nav-2">    
+            <div class="logo"><img src="img/logo.png" alt="logo"><a href="index.html">Musical Fest '22</a></div>
+            <ul class="main-nav-items">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a class="music-fest-nav" href="#introduction">Music Fest</a></li>
             </ul>
         </nav>
     </header>
-    <section class="introduction">
+    <section id="introduction" class="introduction">
         <div class="intro-text">
             <p class="headline">"ARE YOUR READY!"</p>
             <h1 class="main-heading">MUSICAL FEST '22 <br> LAHORE  2022</h1>
@@ -44,7 +54,7 @@
             <p class="location">@ Community Park DHA Lahore</p>
         </div>
     </section>
-    <section class="main-program">
+    <section id="program" class="main-program">
         <h3>Main Program</h3>
         <hr>
         <div class="program-details">
@@ -76,7 +86,28 @@
         </div>
         <button class="join-button" type="button">Join the Musical Fest '22</button>
     </section>
+    <div id="artists" class="artist-heading">
+    <h3>Featured Artists</h3>
+    <hr>
+    </div>
+    <section class="artists-section">
+        
+    </section>
+    <section id="sponsors" class="partners-section">
+        <h3>Partners</h3>
+        <hr>
+        <div class="partners-img">
+            <img class="img-1" src="img/microverse-logo.png" alt="microverse logo">
+            <img class="img-2" src="img/dominos.png" alt="dominos logo">
+            <img class="img-3" src="img/yamaha.png" alt="yamaha logo">
+            <img class="img-4" src="img/audi.png" alt="audi logo">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo"><img src="img/logo.png" alt="logo"><a class="footer-text">Musical Fest '22</a></div>
+        <div class="license"><p>2022 Music Fest, Lahore. Some rights reserved.</p></div>
+    </footer>
 </div>
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
