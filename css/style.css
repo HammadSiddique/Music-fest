@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -63,7 +67,7 @@ nav .openMenu {
 }
 
 .menu-items a:hover {
-  color: #fff;
+  color: #ec5242;
 }
 
 .closeMenu {
@@ -127,6 +131,31 @@ nav .openMenu {
   line-height: 0.7rem;
 }
 
+  .introduction {
+    animation: 2.5s anim-intro-up ease-out 1;
+  }
+
+  @keyframes anim-intro-up {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
 .main-program {
   background-color: #1d1d1d;
   margin-top: 15%;
@@ -163,6 +192,12 @@ nav .openMenu {
   gap: 1rem;
   color: #d3d3d3;
   height: 18vh;
+}
+
+.program-details .detail:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  border: 3px solid #d3d3d3;
 }
 
 .detail i {
@@ -211,6 +246,11 @@ nav .openMenu {
   margin-top: 0;
   margin-bottom: 10%;
 }
+
+.join-button:hover {
+  background-color: #f3331e;
+  transition: 0.2s;
+} 
 
 .artist-heading h3{
   text-align: center;
@@ -357,6 +397,7 @@ display: flex;
     color: #ec5242;
     justify-self: center;
     align-self: center;
+    text-decoration: none;
   }
 
   .top-nav-items li a {

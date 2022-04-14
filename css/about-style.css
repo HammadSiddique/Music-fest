@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -137,6 +141,35 @@ nav .openMenu {
   padding-top: 2%;
 }
 
+.introduction {
+  animation: 2.5s anim-intro-up ease-out 1;
+}
+
+@keyframes anim-intro-up {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.main-program {
+background-color: #1d1d1d;
+margin-top: 15%;
+}
 .logo-history {
   display: flex;
   padding-top: 10%;
@@ -215,6 +248,11 @@ nav .openMenu {
 .events-img img {
   width: 100%;
   padding-bottom: 5%;
+}
+
+.events-img img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .partners-section {
@@ -312,6 +350,7 @@ display: flex;
     color: #ec5242;
     justify-self: center;
     align-self: center;
+    text-decoration: none;
   }
 
   .top-nav-items li a {
