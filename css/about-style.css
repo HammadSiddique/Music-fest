@@ -84,7 +84,7 @@ nav .openMenu {
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: 18rem;
-  background-blend-mode: lighten;
+  animation: 2.5s anim-intro-up ease-out 1;
 }
 
 .intro-text {
@@ -141,10 +141,6 @@ nav .openMenu {
   padding-top: 2%;
 }
 
-.introduction {
-  animation: 2.5s anim-intro-up ease-out 1;
-}
-
 @keyframes anim-intro-up {
   0% {
     opacity: 0;
@@ -167,9 +163,10 @@ nav .openMenu {
 }
 
 .main-program {
-background-color: #1d1d1d;
-margin-top: 15%;
+  background-color: #1d1d1d;
+  margin-top: 15%;
 }
+
 .logo-history {
   display: flex;
   padding-top: 10%;
@@ -207,7 +204,7 @@ margin-top: 15%;
   width: 23%;
 }
 
-.logo-img a {
+.logo-text {
   font-size: 1.5em;
   font-weight: 700;
   font-family: 'COCOGOOSE', sans-serif;
@@ -283,7 +280,7 @@ margin-top: 15%;
   margin-bottom: 5%;
 }
 
-.partners-img img {
+.partners-img .img {
   width: 40%;
 }
 
@@ -297,14 +294,14 @@ margin-top: 15%;
 }
 
 .footer-logo {
-display: flex;
+  display: flex;
 }
 
-.footer-logo img {
+.footer-logo .img {
   width: 17%;
 }
 
-.footer-logo a {
+.footer-text {
   font-size: 1em;
   font-weight: 700;
   font-family: 'COCOGOOSE', sans-serif;
@@ -428,6 +425,7 @@ display: flex;
     font-size: 0.8em;
     margin: 0 27.5%;
   }
+
   .contact-us {
     padding-top: 1.5%;
     font-size: 1em;
@@ -465,7 +463,7 @@ display: flex;
     padding-bottom: 5%;
   }
 
-  .logo-img a{
+  .logo-text {
     font-size: 1.9em;
   }
 
@@ -512,7 +510,7 @@ display: flex;
     width: 17%;
   }
 
-  .footer-logo a {
+  .footer-text {
     font-size: 1.5em;
   }
 

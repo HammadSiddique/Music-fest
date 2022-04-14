@@ -1,6 +1,6 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -85,6 +85,7 @@ nav .openMenu {
   background-repeat: no-repeat;
   background-position: 18rem;
   background-blend-mode: lighten;
+  animation: 2.5s anim-intro-up ease-out 1;
 }
 
 .intro-text {
@@ -131,30 +132,26 @@ nav .openMenu {
   line-height: 0.7rem;
 }
 
-  .introduction {
-    animation: 2.5s anim-intro-up ease-out 1;
+@keyframes anim-intro-up {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
   }
 
-  @keyframes anim-intro-up {
-    0% {
-      opacity: 0;
-      transform: translateY(80%);
-    }
-
-    20% {
-      opacity: 0;
-    }
-
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
+  20% {
+    opacity: 0;
   }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 
 .main-program {
   background-color: #1d1d1d;
@@ -250,9 +247,9 @@ nav .openMenu {
 .join-button:hover {
   background-color: #f3331e;
   transition: 0.2s;
-} 
+}
 
-.artist-heading h3{
+.artist-heading h3 {
   text-align: center;
   padding-top: 5%;
   font-size: 1.5em;
@@ -299,9 +296,9 @@ nav .openMenu {
 }
 
 .artists-description {
-    font-size: 0.7em;
-  }
-  
+  font-size: 0.7em;
+}
+
 .partners-section {
   background-color: #1d1d1d;
 }
@@ -344,14 +341,14 @@ nav .openMenu {
 }
 
 .footer-logo {
-display: flex;
+  display: flex;
 }
 
 .footer-logo img {
   width: 17%;
 }
 
-.footer-logo a {
+.footer-text {
   font-size: 1em;
   font-weight: 700;
   font-family: 'COCOGOOSE', sans-serif;
@@ -534,19 +531,20 @@ display: flex;
   }
 
   .artists-img img {
-      width: 150px;
-      height: 150px;
+    width: 150px;
+    height: 150px;
   }
 
   .artists {
     padding-right: 5%;
   }
+
   .artists-name {
     font-size: 1.5em;
   }
 
   .artists-title {
-    font-size: 1.2em;;
+    font-size: 1.2em;
   }
 
   .artists-description {
@@ -573,14 +571,14 @@ display: flex;
   }
 
   .footer {
-    padding: 3% 13%; 
+    padding: 3% 13%;
   }
 
   .footer-logo img {
     width: 17%;
   }
 
-  .footer-logo a {
+  .footer-text {
     font-size: 1.5em;
   }
 
