@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+![mockup](https://user-images.githubusercontent.com/67911212/163377046-341c384e-03f7-4d1c-b819-fe8053380ccc.jpg)
+
 # Musical Fest Website
 
 > This project is about a musical fest website. Through this website, users can know everything about the event.
